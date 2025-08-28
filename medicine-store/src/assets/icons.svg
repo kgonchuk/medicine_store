@@ -1,0 +1,10 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <defs>
+   <symbol id="icon-loginForm" viewBox="0 0 32 32">
+<path fill="#000" style="fill: var(--color1, #000)" d="M0 0h32v32h-32v-32z"></path>
+<path fill="#59b17a" style="fill: var(--color2, #59b17a)" d="M0 0h32v32h-32v-32z"></path>
+</symbol>
+  </defs>
+</svg>
+
