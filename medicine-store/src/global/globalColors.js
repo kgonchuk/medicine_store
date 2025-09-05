@@ -11,6 +11,7 @@ const color = {
   blueLight: "#F7F8FA",
   whiteSmoke: "#F9F9F9 ",
   white: "#FFFFFF",
+  backGround: "#rgba(29, 30, 33, 0.1)",
 };
 
 export default color;

@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import { SubTitleContainer, SubTitleText, SubTitltLink } from "./SubTitle.styled";
+import { SubTitleContainer, SubTitleSpan, SubTitleText, SubTitltLink } from "./SubTitle.styled";
 
 export const SubTitle = ({ text }) => {
     const location=useLocation();
@@ -10,8 +10,9 @@ export const SubTitle = ({ text }) => {
     const allCustomers=location.pathname==="/customers" && "All Customers";
   return (
     <SubTitleContainer>
-  <SubTitltLink>{dashboard || allOrders || allProducts || allSuppliers || allCustomers}</SubTitltLink>
-<SubTitleText>| vendor@gmail.com</SubTitleText>
+<SubTitltLink>{dashboard || allOrders || allProducts || allSuppliers || allCustomers}</SubTitltLink>
+<SubTitleSpan>|</SubTitleSpan>
+<SubTitleText> vendor@gmail.com</SubTitleText>
       </SubTitleContainer>
   );
-}
+}   
