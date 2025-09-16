@@ -35,6 +35,13 @@
       <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M48 16l-32 32"></path>
       <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M16 16l32 32"></path>
     </symbol>
+    <symbol id="icon-cash-coins" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M20.57 17.143c5.681 0 10.286-2.047 10.286-4.571s-4.605-4.571-10.286-4.571c-5.681 0-10.286 2.047-10.286 4.571s4.605 4.571 10.286 4.571z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M10.285 12.571v13.714c0 2.514 4.571 4.571 10.286 4.571s10.286-2.057 10.286-4.571v-13.714"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M30.857 19.429c0 2.514-4.572 4.571-10.286 4.571s-10.286-2.057-10.286-4.571M20.342 3.429c-2.671-1.648-5.78-2.445-8.914-2.286-5.691 0-10.286 2.057-10.286 4.571 0 1.349 1.326 2.56 3.429 3.429"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M4.571 22.857c-2.103-0.869-3.429-2.080-3.429-3.429v-13.714"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M4.571 16c-2.103-0.869-3.429-2.080-3.429-3.429"></path>
+</symbol>
     <symbol id="icon-stat-products" viewBox="0 0 64 64">
       <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.8" d="M41.143 34.286c11.361 0 20.572-4.093 20.572-9.143s-9.21-9.143-20.572-9.143c-11.361 0-20.572 4.093-20.572 9.143s9.21 9.143 20.572 9.143z"></path>
       <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.8" d="M20.572 25.143v27.429c0 5.029 9.143 9.143 20.572 9.143s20.572-4.114 20.572-9.143v-27.429"></path>

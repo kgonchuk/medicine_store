@@ -6,7 +6,36 @@ import color from "../../global/globalColors";
 
  export const MenuMobileBtn = styled.button`
   position: absolute;
-  top: 24px;
+;
+  //  left: 0;
+  right:20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+padding: 0;
+margin: 0;
+ 
+
+  svg {
+    width: 32px;
+    height: 32px;
+    stroke: #000;
+    stroke-width: 2;
+  }
+    @media screen and (min-width: ${breakpoints.medium})  { 
+    left: 32px; }
+@media screen and (min-width: ${breakpoints.large})  {
+    display: none;
+  }
+
+  &.hidden {
+    display: none;
+  }
+`;
+export const MenuMobileBurger = styled.button`
+  position: absolute;
+top:-60px;
   left: 20px;
   background: none;
   border: none;
@@ -47,7 +76,7 @@ export const Overlay=styled.div`
 
 `;
 
-export const SideBarContainer=styled.nav`
+export const SideBarContainer=styled.div`
    display: flex;
   flex-direction: column;
   padding: 20px;
@@ -77,8 +106,12 @@ export const SideBarContainer=styled.nav`
 
  @media screen and (min-width: ${breakpoints.large})  {
     transform: translateX(0);
-    margin-top: 80px;
     padding: 40px 18px;
+     position: static;
+ display: flex;
+width: 80px;
+height: auto;
+padding-top: 20px;
 
    
   }
@@ -127,7 +160,7 @@ export const SidebarIcon=styled.svg`
    `;    
    export const LogOutContainer=styled.div`
    position: absolute;
-   bottom: 20px;
+   bottom: 0;
    left: 50%;
    transform: translateX(-50%);
    display: block;

@@ -55,7 +55,7 @@ a:focus {
 a,
 button {
   cursor: pointer;
-  text-decoration: ;
+  text-decoration: none;
 }
 
 ::-webkit-scrollbar {

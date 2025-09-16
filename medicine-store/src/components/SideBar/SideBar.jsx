@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import { LogOutContainer, MenuMibileBtn, MenuMobileBtn, MobileMenuIcon, NavItem, NavList, Overlay, SideBarContainer, SidebarIcon, SidebarWrapper } from "./SideBar.styled";
+import { LogOutContainer, MenuMibileBtn, MenuMobileBtn, MenuMobileBurger, MobileMenuIcon, NavItem, NavList, Overlay, SideBarContainer, SidebarIcon, SidebarWrapper } from "./SideBar.styled";
 import sprite from "../../assets/sprite-2.svg";
 import { LogOutBtn } from "../LogOutBtn/LogOutBtn";
 
 
 export const SideBar = () => {
  const [isOpen, setIsOpen] = useState(false);
+ 
   const toggle = () => {
     setIsOpen(!isOpen);
   };
@@ -15,13 +16,14 @@ export const SideBar = () => {
 
   
   return (
-  <> {
+  <> 
+  {
     isOpen && <Overlay onClick={toggle} />}
-  {!isOpen &&  <MenuMobileBtn onClick={toggle} aria-label="Menu">
+  {!isOpen &&  <MenuMobileBurger onClick={toggle} aria-label="Menu">
         <MobileMenuIcon>
         <use  href={`${sprite}#icon-mobile-menu`}  />
         </MobileMenuIcon>
-        </MenuMobileBtn>}
+        </MenuMobileBurger>}
 
 
 

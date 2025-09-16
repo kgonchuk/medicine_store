@@ -1,6 +1,7 @@
 const color = {
   black: "#1D1E21",
   blackLight: "#1D1E2166",
+  grey:"#1D1E211A",
   greenPrimary: "#59B17A",
   greenSecondary: "#3F945F",
   redPrimary: "#E85050",  
