@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmedicine_store=self.webpackChunkmedicine_store||[]).push([[388],{388:(e,s,t)=>{t.r(s),t.d(s,{default:()=>c});var a=t(579);const c=()=>(0,a.jsx)("div",{children:"CustomersDataPage"})}}]);
+//# sourceMappingURL=388.5aa0ec05.chunk.js.map
